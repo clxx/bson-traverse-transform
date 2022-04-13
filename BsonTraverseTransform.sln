@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "BsonTraverseTransform", "BsonTraverseTransform\BsonTraverseTransform.fsproj", "{8371F759-1053-48B4-B056-8D1C12D6DD08}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BsonTraverseTransform", "BsonTraverseTransform\BsonTraverseTransform.fsproj", "{97E3C507-2967-4431-8F69-274B4A632753}"
 EndProject
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "BsonTraverseTransformTests", "BsonTraverseTransformTests\BsonTraverseTransformTests.fsproj", "{317D50F1-AE05-4E1D-A290-7456D370DA61}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BsonTraverseTransformTests", "BsonTraverseTransformTests\BsonTraverseTransformTests.fsproj", "{4699006A-BDF3-4949-A452-4D2F163370CC}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BsonTraverseTransformRunner", "BsonTraverseTransformRunner\BsonTraverseTransformRunner.fsproj", "{C59F538A-35DE-42F6-B8B2-AA016ABF7277}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BsonTraverseTransformRunner", "BsonTraverseTransformRunner\BsonTraverseTransformRunner.csproj", "{44B0CA00-3016-4F82-8630-699933FB77F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8371F759-1053-48B4-B056-8D1C12D6DD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8371F759-1053-48B4-B056-8D1C12D6DD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8371F759-1053-48B4-B056-8D1C12D6DD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8371F759-1053-48B4-B056-8D1C12D6DD08}.Release|Any CPU.Build.0 = Release|Any CPU
-		{317D50F1-AE05-4E1D-A290-7456D370DA61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{317D50F1-AE05-4E1D-A290-7456D370DA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{317D50F1-AE05-4E1D-A290-7456D370DA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{317D50F1-AE05-4E1D-A290-7456D370DA61}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C59F538A-35DE-42F6-B8B2-AA016ABF7277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C59F538A-35DE-42F6-B8B2-AA016ABF7277}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C59F538A-35DE-42F6-B8B2-AA016ABF7277}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C59F538A-35DE-42F6-B8B2-AA016ABF7277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E3C507-2967-4431-8F69-274B4A632753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E3C507-2967-4431-8F69-274B4A632753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E3C507-2967-4431-8F69-274B4A632753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E3C507-2967-4431-8F69-274B4A632753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4699006A-BDF3-4949-A452-4D2F163370CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4699006A-BDF3-4949-A452-4D2F163370CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4699006A-BDF3-4949-A452-4D2F163370CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4699006A-BDF3-4949-A452-4D2F163370CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B0CA00-3016-4F82-8630-699933FB77F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B0CA00-3016-4F82-8630-699933FB77F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B0CA00-3016-4F82-8630-699933FB77F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B0CA00-3016-4F82-8630-699933FB77F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6979CD7C-C719-4455-9337-514A566001E6}
+		SolutionGuid = {CBEE2E75-98D9-49CA-9EF1-1B225804C1DD}
 	EndGlobalSection
 EndGlobal
