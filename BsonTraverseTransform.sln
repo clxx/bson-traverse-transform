@@ -5,9 +5,9 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BsonTraverseTransform", "BsonTraverseTransform\BsonTraverseTransform.fsproj", "{97E3C507-2967-4431-8F69-274B4A632753}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BsonTraverseTransformTests", "BsonTraverseTransformTests\BsonTraverseTransformTests.fsproj", "{4699006A-BDF3-4949-A452-4D2F163370CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BsonTraverseTransformDemos", "BsonTraverseTransformDemos\BsonTraverseTransformDemos.csproj", "{44B0CA00-3016-4F82-8630-699933FB77F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BsonTraverseTransformRunner", "BsonTraverseTransformRunner\BsonTraverseTransformRunner.csproj", "{44B0CA00-3016-4F82-8630-699933FB77F5}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BsonTraverseTransformTests", "BsonTraverseTransformTests\BsonTraverseTransformTests.fsproj", "{4699006A-BDF3-4949-A452-4D2F163370CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{97E3C507-2967-4431-8F69-274B4A632753}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E3C507-2967-4431-8F69-274B4A632753}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E3C507-2967-4431-8F69-274B4A632753}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4699006A-BDF3-4949-A452-4D2F163370CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4699006A-BDF3-4949-A452-4D2F163370CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4699006A-BDF3-4949-A452-4D2F163370CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4699006A-BDF3-4949-A452-4D2F163370CC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{44B0CA00-3016-4F82-8630-699933FB77F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{44B0CA00-3016-4F82-8630-699933FB77F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44B0CA00-3016-4F82-8630-699933FB77F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44B0CA00-3016-4F82-8630-699933FB77F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4699006A-BDF3-4949-A452-4D2F163370CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4699006A-BDF3-4949-A452-4D2F163370CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4699006A-BDF3-4949-A452-4D2F163370CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4699006A-BDF3-4949-A452-4D2F163370CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
