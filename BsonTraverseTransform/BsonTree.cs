@@ -50,7 +50,7 @@ public class BsonTree
                     Traverse(ancestors.Push(new BsonArrayAnchestor(bsonArray, index)), bsonValues[index]);
                 }
                 break;
-            case BsonElement { Value: BsonDocument or BsonArray } bsonElement:
+            case BsonElement bsonElement:
                 Traverse(ancestors, bsonElement.Value);
                 break;
         }
