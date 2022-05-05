@@ -1,5 +1,6 @@
 ﻿using BsonTraverseTransform;
 using MongoDB.Bson;
+using MongoDB.Bson.IO;
 
 var bsonDocument = BsonDocument.Parse(@"{
     ""a"": {
@@ -28,26 +29,26 @@ var bsonDocument = BsonDocument.Parse(@"{
 
 BsonTree.Traverse(
     bsonDocument,
-    null,
-    (ancestors, bsonElement, bsonValue) =>
+    (ancestors, bsonElement) =>
     {
         if (bsonElement.Name is "d")
         {
-            var (document, _, index) = ancestors.Peek();
-            document?.SetElement(index, new BsonElement("zzz", bsonElement.Value));
+            var document = ancestors.PeekAsDocument();
+            document.Update(new BsonElement("zzz", bsonElement.Value));
         }
-
         else if (bsonElement.Name is "c")
         {
-            var (document, _, index) = ancestors.Peek();
-            document?.RemoveAt(index);
+            var document = ancestors.PeekAsDocument();
+            document.Delete();
         }
-
-        else if (bsonValue == 200)
+    },
+    (ancestors, bsonValue) =>
+    {
+        if (bsonValue == 200)
         {
-            var (_, array, index) = ancestors.Peek();
-            array?.RemoveAt(index);
+            var array = ancestors.PeekAsArray();
+            array.Delete();
         }
     });
 
-Console.WriteLine(bsonDocument);
+Console.WriteLine(bsonDocument.ToJson(new JsonWriterSettings { Indent = true }));
